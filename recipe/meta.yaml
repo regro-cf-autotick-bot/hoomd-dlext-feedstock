@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: hoomd-dlext
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/SSAGESLabs/hoomd-dlext/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 547316c95608d7ee1ca11ace53ccf22dddc88206fa0ac0613020f48bf6081269
+  sha256: 438c032befdc8115fb40c71bebb025bb2936382ac26f0df650b4acb5d8c07d0a
 
 build:
-  number: 1
+  number: 0
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
   string: {{ 'cuda' ~ cuda_compiler_version|string }}_py{{ py }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}  # [cuda_compiler_version != "None"]
