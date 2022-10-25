@@ -1,4 +1,6 @@
 {% set version = "0.3.0" %}
+{% set processor = "cpu" if cuda_compiler_version == "None" else "gpu" %}  # [linux64]
+{% set processor = "cpu" %}  # [not linux64]
 
 package:
   name: hoomd-dlext
@@ -9,10 +11,11 @@ source:
   sha256: 438c032befdc8115fb40c71bebb025bb2936382ac26f0df650b4acb5d8c07d0a
 
 build:
-  number: 0
+  number: 1
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
-  string: {{ 'cuda' ~ cuda_compiler_version|string }}_py{{ py }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}  # [cuda_compiler_version != "None"]
+  skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
+  string: hoomd{{ hoomd }}_{{ processor }}_py{{ py }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   ignore_run_exports_from:
     - tbb-devel
 
@@ -20,19 +23,21 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [linux64 and cuda_compiler_version != "None"]
-    - cmake >=3.16
+    - cmake >=3.16,!=3.23.0
     - make
 
   host:
     - python
     - pybind11
     - dlpack >=0.5
-    - hoomd <3
+    - eigen         # [hoomd == "v3"]
+    - hoomd <3      # [hoomd == "v2"]
+    - hoomd >=3.5   # [hoomd == "v3"]
     - tbb-devel
 
   run:
-    - {{ pin_compatible('hoomd', max_pin='x.x') }}
     - python
+    - {{ pin_compatible('hoomd', max_pin='x.x') }}
 
 test:
   imports:
