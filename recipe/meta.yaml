@@ -1,6 +1,6 @@
 {% set version = "0.3.0" %}
-{% set processor = "cpu" if cuda_compiler_version == "None" else "gpu" %}  # [linux64]
-{% set processor = "cpu" %}  # [not linux64]
+{% set variant = ("cuda" ~ cuda_compiler_version ~ "_") if cuda_compiler_version != "None" else "" %}
+{% set variant = ("v2_" if hoomd == "v2" else "") ~ variant %}
 
 package:
   name: hoomd-dlext
@@ -8,14 +8,16 @@ package:
 
 source:
   url: https://github.com/SSAGESLabs/hoomd-dlext/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 438c032befdc8115fb40c71bebb025bb2936382ac26f0df650b4acb5d8c07d0a
+  sha256: fc62e929f42707bf1926546d3cdf4b4090503f8ad66ef64f3df635a1687823c9
 
 build:
-  number: 1
+  number: 2
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
+  skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
+  skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
   skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
-  string: hoomd{{ hoomd }}_{{ processor }}_py{{ py }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
+  string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   ignore_run_exports_from:
     - tbb-devel
 
@@ -30,14 +32,17 @@ requirements:
     - python
     - pybind11
     - dlpack >=0.5
-    - eigen         # [hoomd == "v3"]
-    - hoomd <3      # [hoomd == "v2"]
-    - hoomd >=3.5   # [hoomd == "v3"]
+    - eigen             # [hoomd == "v3"]
+    - hoomd ==2.9.6     # [hoomd == "v2" and cuda_compiler_version != "None"]
+    - hoomd >=2.9.6,<3  # [hoomd == "v2" and cuda_compiler_version == "None"]
+    - hoomd >=3.5       # [hoomd == "v3"]
     - tbb-devel
 
   run:
     - python
-    - {{ pin_compatible('hoomd', max_pin='x.x') }}
+    - {{ pin_compatible('hoomd', upper_bound='2.9.7') }}  # [hoomd == "v2" and cuda_compiler_version != "None"]
+    - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd == "v2" and cuda_compiler_version == "None"]
+    - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd == "v3"]
 
 test:
   imports:
