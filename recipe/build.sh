@@ -7,6 +7,10 @@ rm -rf build || true
 CMAKE_FLAGS="  -DCMAKE_INSTALL_PREFIX=${PREFIX}"
 CMAKE_FLAGS+=" -DCMAKE_BUILD_TYPE=Release"
 
+if [ -z "${PYTHON+x}" ]; then
+    PYTHON="${PREFIX}/bin/python"
+fi
+
 HOOMDv2=$( $PYTHON -c 'import hoomd; print(getattr(hoomd, "__version__", "").startswith("2."), end="")' )
 PYTHON_SITELIB=$( $PYTHON -c 'import sysconfig; print(sysconfig.get_path("purelib"), end="")' )
 if [[ ${HOOMDv2} == False ]]; then
