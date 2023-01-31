@@ -11,6 +11,9 @@ jobs:
       osx_64_hoomdv2python3.10.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv2python3.10.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
+      osx_64_hoomdv2python3.11.____cpythonpython_implcpython:
+        CONFIG: osx_64_hoomdv2python3.11.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
       osx_64_hoomdv2python3.8.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv2python3.8.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
@@ -19,6 +22,9 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_hoomdv3python3.10.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv3python3.10.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_hoomdv3python3.11.____cpythonpython_implcpython:
+        CONFIG: osx_64_hoomdv3python3.11.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
       osx_64_hoomdv3python3.8.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv3python3.8.____cpythonpython_implcpython
