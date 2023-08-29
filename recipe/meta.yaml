@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set variant = ("cuda" ~ cuda_compiler_version ~ "_") if cuda_compiler_version != "None" else "" %}
 {% set variant = ("v2_" if hoomd == "v2" else "") ~ variant %}
 
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/SSAGESLabs/hoomd-dlext/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 438c032befdc8115fb40c71bebb025bb2936382ac26f0df650b4acb5d8c07d0a
+  sha256: e7760f6e95aab21da7e1a9c4300a3b8e9f56cf14e22f9be47ae54d2efee24055
 
 build:
-  number: 3
+  number: 0
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
