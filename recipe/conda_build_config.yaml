@@ -5,4 +5,5 @@ MACOSX_SDK_VERSION:        # [osx and x86_64]
 
 hoomd:
   - v2
-  - v3+
+  - v3
+  - v4

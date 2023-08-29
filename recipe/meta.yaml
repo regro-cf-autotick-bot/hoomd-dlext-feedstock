@@ -1,6 +1,6 @@
 {% set version = "0.4.0" %}
 {% set variant = ("cuda" ~ cuda_compiler_version ~ "_") if cuda_compiler_version != "None" else "" %}
-{% set variant = ("v2_" if hoomd == "v2" else "") ~ variant %}
+{% set variant = hoomd ~ "_" ~ variant %}
 
 package:
   name: hoomd-dlext
@@ -16,7 +16,7 @@ build:
   skip: true  # [win or py<36 or python_impl == "pypy"]
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
   skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
-  skip: true  # [hoomd == "v3+" and cuda_compiler_version not in ("11.2", "None")]
+  skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   ignore_run_exports_from:
     - tbb-devel
@@ -32,17 +32,18 @@ requirements:
     - python
     - pybind11
     - dlpack >=0.5
-    - eigen             # [hoomd == "v3+"]
+    - eigen             # [hoomd != "v2"]
     - hoomd ==2.9.6     # [hoomd == "v2" and cuda_compiler_version != "None"]
     - hoomd >=2.9.6,<3  # [hoomd == "v2" and cuda_compiler_version == "None"]
-    - hoomd >=3.5       # [hoomd == "v3+"]
+    - hoomd >=3.5,<4    # [hoomd == "v3"]
+    - hoomd >4          # [hoomd == "v4"]
     - tbb-devel
 
   run:
     - python
     - {{ pin_compatible('hoomd', upper_bound='2.9.7') }}  # [hoomd == "v2" and cuda_compiler_version != "None"]
     - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd == "v2" and cuda_compiler_version == "None"]
-    - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd == "v3+"]
+    - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd != "v2"]
 
 test:
   imports:
