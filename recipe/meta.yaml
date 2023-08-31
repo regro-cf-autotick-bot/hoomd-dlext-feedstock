@@ -41,10 +41,10 @@ requirements:
 
   run:
     - python
+    - libstdcxx-devel_linux-64 <13  # [hoomd == "v3" and cuda_compiler_version == "None" and linux64]
     - {{ pin_compatible('hoomd', upper_bound='2.9.7') }}  # [hoomd == "v2" and cuda_compiler_version != "None"]
     - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd == "v2" and cuda_compiler_version == "None"]
     - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd != "v2"]
-    - {{ pin_compatible('libstdcxx-devel_linux-64', max_pin='x.x') }}  # [hoomd == "v3" and linux64]
 
 test:
   imports:
