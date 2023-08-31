@@ -16,7 +16,7 @@ build:
   skip: true  # [win or py<36 or python_impl == "pypy"]
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
   skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
-  skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
+  skip: true  # [hoomd == "v3" and (cuda_compiler_version not in ("11.2", "None") or cxx_compiler_version == "12")]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   ignore_run_exports_from:
     - tbb-devel
