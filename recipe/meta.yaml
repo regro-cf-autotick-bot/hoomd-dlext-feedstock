@@ -17,6 +17,7 @@ build:
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
   skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
   skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
+  skip: true  # [hoomd == "v3" and linux64 and cuda_compiler_version == "None" and cxx_compiler_version >= 12]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   ignore_run_exports_from:
     - tbb-devel
@@ -41,7 +42,6 @@ requirements:
 
   run:
     - python
-    - libstdcxx-devel_linux-64 <13  # [hoomd == "v3" and cuda_compiler_version == "None" and linux64]
     - {{ pin_compatible('hoomd', upper_bound='2.9.7') }}  # [hoomd == "v2" and cuda_compiler_version != "None"]
     - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd == "v2" and cuda_compiler_version == "None"]
     - {{ pin_compatible('hoomd', max_pin='x.x') }}        # [hoomd != "v2"]
