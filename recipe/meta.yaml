@@ -11,7 +11,7 @@ source:
   sha256: e7760f6e95aab21da7e1a9c4300a3b8e9f56cf14e22f9be47ae54d2efee24055
 
 build:
-  number: 0
+  number: 1
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
