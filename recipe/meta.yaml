@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set variant = ("cuda" ~ cuda_compiler_version ~ "_") if cuda_compiler_version != "None" else "" %}
 {% set variant = hoomd ~ "_" ~ variant %}
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/SSAGESLabs/hoomd-dlext/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e7760f6e95aab21da7e1a9c4300a3b8e9f56cf14e22f9be47ae54d2efee24055
+  sha256: dcb21267b52f3e8d94c4817e451fed02a55b6058343dae7bc5afd53e4e4374a0
 
 build:
   number: 1
@@ -26,7 +26,6 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [linux64 and cuda_compiler_version != "None"]
-    - numpy                   # [build_platform != target_platform]
     - cmake >=3.16,!=3.23.0
     - make
 
