@@ -26,6 +26,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [linux64 and cuda_compiler_version != "None"]
+    - numpy                   # [build_platform != target_platform]
     - cmake >=3.16,!=3.23.0
     - make
 
