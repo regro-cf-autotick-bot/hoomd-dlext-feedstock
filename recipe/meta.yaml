@@ -11,13 +11,14 @@ source:
   sha256: dcb21267b52f3e8d94c4817e451fed02a55b6058343dae7bc5afd53e4e4374a0
 
 build:
-  number: 1
+  number: 0
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
   skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
   skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
   skip: true  # [hoomd == "v3" and linux64 and cuda_compiler_version == "None" and cxx_compiler_version >= 12]
+  skip: true  # [hoomd == "v4" and cuda_compiler_version == "11.8" and py==310]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   ignore_run_exports_from:
     - tbb-devel
