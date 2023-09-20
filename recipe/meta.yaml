@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 {% set variant = ("cuda" ~ cuda_compiler_version ~ "_") if cuda_compiler_version != "None" else "" %}
 {% set variant = hoomd ~ "_" ~ variant %}
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/SSAGESLabs/hoomd-dlext/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: dcb21267b52f3e8d94c4817e451fed02a55b6058343dae7bc5afd53e4e4374a0
+  sha256: 3521af38138b2ecf637a5888d81c0af2960fce2da96bb8982d0d023da23ba319
 
 build:
   number: 0
@@ -17,9 +17,8 @@ build:
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
   skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
   skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
-  skip: true  # [hoomd == "v3" and linux64 and cuda_compiler_version == "None" and cxx_compiler_version >= 12]
-  skip: true  # [hoomd == "v4" and cuda_compiler_version == "11.8" and py==310]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
+  script_env: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   ignore_run_exports_from:
     - tbb-devel
 
@@ -39,6 +38,7 @@ requirements:
     - hoomd >=2.9.6,<3  # [hoomd == "v2" and cuda_compiler_version == "None"]
     - hoomd >=3.5,<4    # [hoomd == "v3"]
     - hoomd >=4         # [hoomd == "v4"]
+    - setuptools-scm
     - tbb-devel
 
   run:
