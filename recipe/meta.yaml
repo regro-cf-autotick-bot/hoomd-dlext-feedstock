@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 {% set variant = ("cuda" ~ cuda_compiler_version ~ "_") if cuda_compiler_version != "None" else "" %}
 {% set variant = hoomd ~ "_" ~ variant %}
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/SSAGESLabs/hoomd-dlext/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: dcb21267b52f3e8d94c4817e451fed02a55b6058343dae7bc5afd53e4e4374a0
+  sha256: 3521af38138b2ecf637a5888d81c0af2960fce2da96bb8982d0d023da23ba319
 
 build:
   number: 0
