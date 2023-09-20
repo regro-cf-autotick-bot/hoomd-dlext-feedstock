@@ -20,6 +20,7 @@ build:
   skip: true  # [hoomd == "v3" and linux64 and cuda_compiler_version == "None" and cxx_compiler_version >= 12]
   skip: true  # [hoomd == "v4" and cuda_compiler_version == "11.8" and py==310]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
+  script_env: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   ignore_run_exports_from:
     - tbb-devel
 
@@ -39,6 +40,7 @@ requirements:
     - hoomd >=2.9.6,<3  # [hoomd == "v2" and cuda_compiler_version == "None"]
     - hoomd >=3.5,<4    # [hoomd == "v3"]
     - hoomd >=4         # [hoomd == "v4"]
+    - setuptools-scm
     - tbb-devel
 
   run:
