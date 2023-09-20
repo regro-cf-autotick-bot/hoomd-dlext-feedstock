@@ -17,8 +17,6 @@ build:
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
   skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
   skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
-  skip: true  # [hoomd == "v3" and linux64 and cuda_compiler_version == "None" and cxx_compiler_version >= 12]
-  skip: true  # [hoomd == "v4" and cuda_compiler_version == "11.8" and py==310]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   script_env: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   ignore_run_exports_from:
