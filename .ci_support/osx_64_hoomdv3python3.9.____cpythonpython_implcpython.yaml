@@ -11,7 +11,7 @@ cuda_compiler_version:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '16'
+- '14'
 hoomd:
 - v3
 macos_machine:
