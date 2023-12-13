@@ -32,6 +32,7 @@ requirements:
   host:
     - python
     - pybind11
+    - pybind11-abi
     - dlpack >=0.5
     - eigen             # [hoomd != "v2"]
     - hoomd ==2.9.6     # [hoomd == "v2" and cuda_compiler_version != "None"]
@@ -49,7 +50,8 @@ requirements:
 
 test:
   imports:
-    - hoomd.dlext
+    # Build systems lack a working libcuda.so.1, cannot test GPU builds, even on the CPU.
+    - hoomd.dlext  # [cuda_compiler_version == "None"]
 
 about:
   home: https://github.com/SSAGESLabs/hoomd-dlext
