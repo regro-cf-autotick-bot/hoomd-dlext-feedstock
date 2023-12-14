@@ -12,7 +12,7 @@ if [ -z "${PYTHON+x}" ]; then
 fi
 
 PYTHON_SITELIB=$( $PYTHON -c 'import sysconfig; print(sysconfig.get_path("purelib"), end="")' )
-HOOMD_VERSION_MAJOR=$( grep -Po '(?<=HOOMD_VERSION_MAJOR )\d+' "${PYTHON_SITELIB}/hoomd/include/HOOMDVersion.h" )
+HOOMD_VERSION_MAJOR=$( perl -nle'print $& while m{(?<=HOOMD_VERSION_MAJOR )\d+}g' "${PYTHON_SITELIB}/hoomd/include/HOOMDVersion.h" )
 if [[ ${HOOMD_VERSION_MAJOR} != 2 ]]; then
     CMAKE_PREFIX_PATH="${CMAKE_PREFIX_PATH}:${PYTHON_SITELIB}"
 fi
