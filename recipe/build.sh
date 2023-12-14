@@ -11,9 +11,9 @@ if [ -z "${PYTHON+x}" ]; then
     PYTHON="${PREFIX}/bin/python"
 fi
 
-HOOMDv2=$( $PYTHON -c 'import hoomd; print(getattr(hoomd, "__version__", "").startswith("2."), end="")' )
 PYTHON_SITELIB=$( $PYTHON -c 'import sysconfig; print(sysconfig.get_path("purelib"), end="")' )
-if [[ ${HOOMDv2} == False ]]; then
+HOOMD_VERSION_MAJOR=$( grep -Po '(?<=HOOMD_VERSION_MAJOR )\d+' "${PYTHON_SITELIB}/hoomd/include/HOOMDVersion.h" )
+if [[ ${HOOMD_VERSION_MAJOR} != 2 ]]; then
     CMAKE_PREFIX_PATH="${CMAKE_PREFIX_PATH}:${PYTHON_SITELIB}"
 fi
 
