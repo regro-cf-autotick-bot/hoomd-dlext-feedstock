@@ -1,5 +1,6 @@
 {% set version = "0.5.0" %}
-{% set variant = ("cuda" ~ cuda_compiler_version ~ "_") if cuda_compiler_version != "None" else "" %}
+{% set cuda_major = (cuda_compiler_version | default("0.0", true)).split(".")[0] | int %}
+{% set variant = ("cuda" ~ cuda_major ~ "_") if cuda_major != 0 else "" %}
 {% set variant = hoomd ~ "_" ~ variant %}
 
 package:
@@ -18,6 +19,7 @@ build:
   skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
   skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
+  script: bash ${RECIPE_DIR}/build.sh {{ hoomd }} {{ cuda_major }}
   script_env: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   ignore_run_exports_from:
     - tbb-devel
@@ -41,16 +43,17 @@ requirements:
     - hoomd >=4         # [hoomd == "v4"]
     - setuptools-scm
     - tbb-devel
-    # CUDA dependencies
-    - cuda-version {{ cuda_compiler_version }}  # [linux64 and cuda_compiler_version != "None"]
-    - cuda-cudart-dev    # [linux64 and cuda_compiler_version != "None" and float(cuda_compiler_version) >= 12.0]
-    - cuda-driver-dev    # [linux64 and cuda_compiler_version != "None" and float(cuda_compiler_version) >= 12.0]
-    - cuda-nvrtc-dev     # [linux64 and cuda_compiler_version != "None" and float(cuda_compiler_version) >= 12.0]
-    - cuda-profiler-api  # [linux64 and cuda_compiler_version != "None" and float(cuda_compiler_version) >= 12.0]
-    - libcublas-dev      # [linux64 and cuda_compiler_version != "None" and float(cuda_compiler_version) >= 12.0]
-    - libcufft-dev       # [linux64 and cuda_compiler_version != "None" and float(cuda_compiler_version) >= 12.0]
-    - libcusolver-dev    # [linux64 and cuda_compiler_version != "None" and float(cuda_compiler_version) >= 12.0]
-    - libcusparse-dev    # [linux64 and cuda_compiler_version != "None" and float(cuda_compiler_version) >= 12.0]
+    {% if linux64 and cuda_major >= 12 %}
+    # CUDA dependencies (we don't really need all of them, but HOOMD checks that they are present)
+    - cuda-version {{ cuda_compiler_version }}
+    - cuda-cudart-dev
+    - cuda-driver-dev
+    - cuda-nvrtc-dev
+    - libcublas-dev
+    - libcufft-dev
+    - libcusolver-dev
+    - libcusparse-dev
+    {% endif %}
 
   run:
     - python
