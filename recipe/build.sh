@@ -4,9 +4,6 @@ set -euxo pipefail
 
 rm -rf build || true
 
-HOOMD_MAJOR="$1"
-CUDA_MAJOR="$2"
-
 CMAKE_FLAGS="  -DCMAKE_INSTALL_PREFIX=${PREFIX}"
 CMAKE_FLAGS+=" -DCMAKE_BUILD_TYPE=Release"
 
@@ -15,7 +12,7 @@ if [ -z "${PYTHON+x}" ]; then
 fi
 
 PYTHON_SITELIB=$( $PYTHON -c 'import sysconfig; print(sysconfig.get_path("purelib"), end="")' )
-if [[ $HOOMD_MAJOR != v2 ]]; then
+if [[ $HOOMD_TAG != v2 ]]; then
     CMAKE_PREFIX_PATH="${CMAKE_PREFIX_PATH}:${PYTHON_SITELIB}"
 fi
 
