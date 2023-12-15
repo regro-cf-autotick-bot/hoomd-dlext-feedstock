@@ -16,8 +16,7 @@ if [[ $HOOMD_TAG != v2 ]]; then
     CMAKE_PREFIX_PATH="${CMAKE_PREFIX_PATH}:${PYTHON_SITELIB}"
 fi
 
-# if CUDA_HOME is defined and not empty, we enable CUDA
-if [[ -n ${CUDA_HOME-} ]]; then
+if (( CUDA_MAJOR > 0 )); then
     CMAKE_FLAGS+=" -DCMAKE_CUDA_HOST_COMPILER=${CXX}"
     if (( CUDA_MAJOR < 12 )); then
         CMAKE_FLAGS+=" -DCMAKE_CUDA_COMPILER=${CUDA_HOME}/bin/nvcc "

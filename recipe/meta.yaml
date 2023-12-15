@@ -51,6 +51,7 @@ requirements:
     - cuda-cudart-dev
     - cuda-driver-dev
     - cuda-nvrtc-dev
+    - cuda-profiler-api
     - libcublas-dev
     - libcufft-dev
     - libcusolver-dev
