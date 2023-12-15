@@ -1,5 +1,6 @@
 {% set version = "0.5.0" %}
-{% set variant = ("cuda" ~ cuda_compiler_version ~ "_") if cuda_compiler_version != "None" else "" %}
+{% set cuda_major = (cuda_compiler_version | default("0.0", true)).split(".")[0] | int %}
+{% set variant = ("cuda" ~ cuda_major ~ "_") if cuda_major != 0 else "" %}
 {% set variant = hoomd ~ "_" ~ variant %}
 
 package:
@@ -11,14 +12,17 @@ source:
   sha256: 3521af38138b2ecf637a5888d81c0af2960fce2da96bb8982d0d023da23ba319
 
 build:
-  number: 0
+  number: 1
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
   skip: true  # [hoomd == "v2" and cuda_compiler_version == "None" and py>310]
   skip: true  # [hoomd == "v3" and cuda_compiler_version not in ("11.2", "None")]
   string: {{ variant }}py{{ py }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
-  script_env: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
+  script_env:
+    - CUDA_MAJOR={{ cuda_major }}
+    - HOOMD_TAG={{ hoomd }}
+    - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   ignore_run_exports_from:
     - tbb-devel
 
@@ -32,6 +36,7 @@ requirements:
   host:
     - python
     - pybind11
+    - pybind11-abi
     - dlpack >=0.5
     - eigen             # [hoomd != "v2"]
     - hoomd ==2.9.6     # [hoomd == "v2" and cuda_compiler_version != "None"]
@@ -40,6 +45,18 @@ requirements:
     - hoomd >=4         # [hoomd == "v4"]
     - setuptools-scm
     - tbb-devel
+    {% if linux64 and cuda_major >= 12 %}
+    # CUDA dependencies (we don't really need all of them, but HOOMD checks that they are present)
+    - cuda-version {{ cuda_compiler_version }}
+    - cuda-cudart-dev
+    - cuda-driver-dev
+    - cuda-nvrtc-dev
+    - cuda-profiler-api
+    - libcublas-dev
+    - libcufft-dev
+    - libcusolver-dev
+    - libcusparse-dev
+    {% endif %}
 
   run:
     - python
@@ -49,7 +66,8 @@ requirements:
 
 test:
   imports:
-    - hoomd.dlext
+    # Build systems lack a working libcuda.so.1, cannot test GPU builds, even on the CPU.
+    - hoomd.dlext  # [cuda_compiler_version == "None"]
 
 about:
   home: https://github.com/SSAGESLabs/hoomd-dlext

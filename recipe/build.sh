@@ -11,16 +11,23 @@ if [ -z "${PYTHON+x}" ]; then
     PYTHON="${PREFIX}/bin/python"
 fi
 
-HOOMDv2=$( $PYTHON -c 'import hoomd; print(getattr(hoomd, "__version__", "").startswith("2."), end="")' )
 PYTHON_SITELIB=$( $PYTHON -c 'import sysconfig; print(sysconfig.get_path("purelib"), end="")' )
-if [[ ${HOOMDv2} == False ]]; then
+if [[ $HOOMD_TAG != v2 ]]; then
     CMAKE_PREFIX_PATH="${CMAKE_PREFIX_PATH}:${PYTHON_SITELIB}"
 fi
 
-# if CUDA_HOME is defined and not empty, we enable CUDA
-if [[ -n ${CUDA_HOME-} ]]; then
-    CMAKE_FLAGS+=" -DCMAKE_CUDA_COMPILER=${CUDA_HOME}/bin/nvcc "
+if (( CUDA_MAJOR > 0 )); then
     CMAKE_FLAGS+=" -DCMAKE_CUDA_HOST_COMPILER=${CXX}"
+    if (( CUDA_MAJOR < 12 )); then
+        CMAKE_FLAGS+=" -DCMAKE_CUDA_COMPILER=${CUDA_HOME}/bin/nvcc "
+    else
+        [[ ${target_platform} == "linux-64" ]] && targetsDir="targets/x86_64-linux"
+        [[ ${target_platform} == "linux-ppc64le" ]] && targetsDir="targets/ppc64le-linux"
+        [[ ${target_platform} == "linux-aarch64" ]] && targetsDir="targets/sbsa-linux"
+
+        # The conda-forge build system does not provide libcuda from an NVIDIA driver, so we link to the stub.
+        CMAKE_FLAGS+=" -DCUDA_cuda_LIBRARY=${PREFIX}/${targetsDir}/lib/stubs/libcuda.so"
+    fi
 fi
 
 if [[ "$target_platform" == osx* ]]; then
