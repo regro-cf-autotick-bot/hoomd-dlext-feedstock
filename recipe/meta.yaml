@@ -12,7 +12,7 @@ source:
   sha256: 3521af38138b2ecf637a5888d81c0af2960fce2da96bb8982d0d023da23ba319
 
 build:
-  number: 1
+  number: 2
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
@@ -29,6 +29,7 @@ build:
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cuda') }}  # [linux64 and cuda_compiler_version != "None"]
     - cmake >=3.16,!=3.23.0
     - make
