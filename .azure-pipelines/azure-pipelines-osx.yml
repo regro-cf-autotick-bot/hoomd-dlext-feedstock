@@ -5,7 +5,7 @@
 jobs:
 - job: osx
   pool:
-    vmImage: macOS-11
+    vmImage: macOS-12
   strategy:
     matrix:
       osx_64_hoomdv2python3.10.____cpythonpython_implcpython:
@@ -13,6 +13,9 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_hoomdv2python3.11.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv2python3.11.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_hoomdv2python3.12.____cpythonpython_implcpython:
+        CONFIG: osx_64_hoomdv2python3.12.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
       osx_64_hoomdv2python3.8.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv2python3.8.____cpythonpython_implcpython
@@ -26,6 +29,9 @@ jobs:
       osx_64_hoomdv3python3.11.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv3python3.11.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
+      osx_64_hoomdv3python3.12.____cpythonpython_implcpython:
+        CONFIG: osx_64_hoomdv3python3.12.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
       osx_64_hoomdv3python3.8.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv3python3.8.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
@@ -38,14 +44,18 @@ jobs:
       osx_64_hoomdv4python3.11.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv4python3.11.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
+      osx_64_hoomdv4python3.12.____cpythonpython_implcpython:
+        CONFIG: osx_64_hoomdv4python3.12.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
       osx_64_hoomdv4python3.8.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv4python3.8.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
       osx_64_hoomdv4python3.9.____cpythonpython_implcpython:
         CONFIG: osx_64_hoomdv4python3.9.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
-    maxParallel: 10
+    maxParallel: 12
   timeoutInMinutes: 360
+  variables: {}
 
   steps:
   # TODO: Fast finish on azure pipelines?

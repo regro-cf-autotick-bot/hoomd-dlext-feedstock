@@ -37,339 +37,318 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv2python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv3python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12hoomdv4python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv2python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv2python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv2python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv3python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv2python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv2python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv2python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv2python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv2python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv2python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv3python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv3python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv3python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv3python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12hoomdv4python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv3python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv3python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv3python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv3python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv4python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv4python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv4python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv4python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv4python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv4python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv4python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10hoomdv4python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv2python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.11.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.9.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv3python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.10.____cpythonpython_implcpython</td>
+              <td>linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.10.____cpythonpython_implcpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.11.____cpythonpython_implcpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.11.____cpythonpython_implcpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.8.____cpythonpython_implcpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.8.____cpythonpython_implcpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.9.____cpythonpython_implcpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_stdlib_version2.17cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11hoomdv4python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -384,6 +363,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hoomdv2python3.11.____cpythonpython_implcpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_hoomdv2python3.12.____cpythonpython_implcpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hoomdv2python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -415,6 +401,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_hoomdv3python3.12.____cpythonpython_implcpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hoomdv3python3.12.____cpythonpython_implcpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_hoomdv3python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
@@ -440,6 +433,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hoomdv4python3.11.____cpythonpython_implcpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_hoomdv4python3.12.____cpythonpython_implcpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17749&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hoomd-dlext-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hoomdv4python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
