@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 {% set cuda_major = (cuda_compiler_version | default("0.0", true)).split(".")[0] | int %}
 {% set variant = ("cuda" ~ cuda_major ~ "_") if cuda_major != 0 else "" %}
 {% set variant = hoomd ~ "_" ~ variant %}
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/SSAGESLabs/hoomd-dlext/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 3521af38138b2ecf637a5888d81c0af2960fce2da96bb8982d0d023da23ba319
+  sha256: 3da94b345fb6bfd083633de84769eccf92693cbba95c7d442708f3f940788c31
 
 build:
-  number: 1
+  number: 0
   # Upstream package does not support Windows, Python < 3.6, or PyPy
   skip: true  # [win or py<36 or python_impl == "pypy"]
   skip: true  # [hoomd == "v2" and cuda_compiler_version != "None" and py>39]
@@ -29,6 +29,7 @@ build:
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cuda') }}  # [linux64 and cuda_compiler_version != "None"]
     - cmake >=3.16,!=3.23.0
     - make
