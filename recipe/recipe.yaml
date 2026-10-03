@@ -14,7 +14,7 @@ source:
   sha256: 187e1a9013a019bff90fbaec10f8a1be4d510eab164990db4849d894c9545d33
 
 build:
-  number: 0
+  number: 1
   string: ${{ variant }}py${{ python | version_to_buildstring }}_h${{ hash }}_${{ build_number }}
   skip:
     - win
